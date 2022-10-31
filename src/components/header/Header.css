@@ -1,4 +1,4 @@
-.header-container {
+.headerContainer {
   background-image: url('../../assets/banner.svg');
   background-size: cover;
   background-position: center;
@@ -7,63 +7,12 @@
   background-color: var(--cor-secundaria-azul);
 }
 
-.container-menu-externo {
+.externalMain {
   max-width: 1260px;
   margin: 0 auto;
 }
 
-.conteudo-banner {
-  max-width: 1260px;
-  margin: auto;
-  position: absolute;
-  top: 40%;
-}
-
-img {
-  width: 200px;
-  height: 50px;
-}
-
-.logo-menu-img:hover {
-  cursor: pointer;
-}
-
-.conteudo-banner h1 {
-  font-weight: 800;
-  font-size: 40px;
-  line-height: 40px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--cor-branca);
-  margin-bottom: 0.5em;
-}
-
-.btn-saber-mais-banner {
-  background-color: var(--cor-primaria-verde);
-  text-transform: uppercase;
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 125%;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--cor-branca);
-  width: 180px;
-  height: 45px;
-  border-radius: 50px;
-}
-
-.btn-saber-mais-banner:hover {
-  background-color: transparent;
-  border: 2px var(--cor-primaria-verde) solid;
-  color: var(--cor-primaria-verde);
-  font-weight: 800;
-  cursor: pointer;
-  transition: 0.4s;
-}
-
-.div-menu {
+.main {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -73,20 +22,29 @@ img {
   padding-top: 2em;
 }
 
-.li-menu {
-  list-style: none;
-  display: flex;
-  gap: 2em;
+img {
+  width: 200px;
+  height: 50px;
 }
 
-.div-container-menu {
+.imgMain:hover {
+  cursor: pointer;
+}
+
+.containerMain {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 2em;
 }
 
-.li-menu a {
+.liMain {
+  list-style: none;
+  display: flex;
+  gap: 2em;
+}
+
+.liMain a {
   text-decoration: none;
   text-transform: uppercase;
   font-family: 'Montserrat';
@@ -99,13 +57,13 @@ img {
   color: var(--cor-branca);
 }
 
-.link-menu:hover {
+.linkMain:hover {
   color: var(--cor-primaria-verde);
   border-bottom: 2px solid var(--cor-primaria-verde);
   transition: 0.4s;
 }
 
-.btn-faça-login {
+.btnLogin {
   background-color: transparent;
   text-transform: uppercase;
   font-family: 'Montserrat';
@@ -122,7 +80,7 @@ img {
   border-radius: 50px;
 }
 
-.btn-faça-login:hover {
+.btnLogin:hover {
   background-color: var(--cor-branca);
   color: var(--cor-primaria-verde);
   font-weight: 800;
@@ -130,7 +88,7 @@ img {
   transition: 0.4s;
 }
 
-.btn-invista-agora {
+.btnNow {
   background-color: var(--cor-primaria-verde);
   text-transform: uppercase;
   font-family: 'Montserrat';
@@ -147,11 +105,53 @@ img {
   margin-left: 1em;
 }
 
-.btn-invista-agora:hover {
+.btnNow:hover {
   background-color: var(--cor-branca);
   border: 2px solid var(--cor-primaria-verde);
   color: var(--cor-primaria-verde);
   font-weight: 800;
   cursor: pointer;
   transition: 0.5s;
+}
+
+.banner {
+  max-width: 1260px;
+  margin: auto;
+  position: absolute;
+  top: 40%;
+}
+
+.banner h1 {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--cor-branca);
+  margin-bottom: 0.5em;
+}
+
+.btnMoreBanner {
+  background-color: var(--cor-primaria-verde);
+  text-transform: uppercase;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 125%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--cor-branca);
+  width: 180px;
+  height: 45px;
+  border-radius: 50px;
+}
+
+.btnMoreBanner:hover {
+  background-color: transparent;
+  border: 2px var(--cor-primaria-verde) solid;
+  color: var(--cor-primaria-verde);
+  font-weight: 800;
+  cursor: pointer;
+  transition: 0.4s;
 }

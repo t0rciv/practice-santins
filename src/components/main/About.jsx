@@ -1,21 +1,17 @@
 import React from 'react';
 import imgEmpresa from '../../assets/empresa.svg';
 
-import './Empresa.css';
+import './About.css';
 
-const Empresa = () => {
+const About = () => {
   return (
-    <section className="section-sobre-empresa">
-      <img
-        className="bg-sobre-empresa"
-        src={imgEmpresa}
-        alt="Imagem com gráficos"
-      />
-      <div className="conteudo-sobre-empresa">
-        <h2 className="h2-sobre-empresa">
-          <span className="letra-a-sobre-empresa">A</span> empresa
+    <section className="aboutSection">
+      <img className="aboutBg" src={imgEmpresa} alt="Imagem com gráficos" />
+      <div className="aboutContent">
+        <h2 className="aboutH2">
+          <span className="letterA">A</span> empresa
         </h2>
-        <p className="paragrafo-sobre-empresa">
+        <p className="aboutText">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
           maximus tempor tellus non cursus. Donec nisl metus, sagittis at
           convallis at, laoreet eu nulla. Duis mattis luctus tellus at
@@ -24,10 +20,10 @@ const Empresa = () => {
           lobortis mauris mattis. Etiam suscipit consequat dolor, dignissim
           dictum neque pulvinar pharetra. Sed mattis euismod lorem at egestas.
         </p>
-        <button className="button-saber-mais">Saber mais</button>
+        <button className="btnMore">Saber mais</button>
       </div>
     </section>
   );
 };
 
-export default Empresa;
+export default About;

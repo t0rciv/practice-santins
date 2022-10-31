@@ -1,0 +1,119 @@
+.fund {
+  position: relative;
+  min-width: 1260px;
+  margin: 0 auto;
+}
+
+.fundContainer {
+  min-width: 1260px;
+  margin: 0 auto 10em;
+  max-width: 1260px;
+  display: flex;
+  align-content: stretch;
+  flex-wrap: wrap;
+}
+
+.fundExternal {
+  max-width: 1260px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  align-content: center;
+}
+
+.fundTitle {
+  width: 711px;
+  height: 457px;
+  background: var(--cor-branca);
+  margin-right: -30px;
+}
+
+.textH3 {
+  margin-top: 3em;
+  width: 537px;
+  height: 264px;
+  margin-left: 3em;
+}
+
+.titleH3 {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--cor-primaria-verde);
+  font-size: 48px;
+}
+
+.titleH3::before {
+  content: '';
+  display: inline-block;
+  border: 4px solid var(--cor-primaria-verde);
+  width: 11px;
+  height: 11px;
+  margin: 0 10px 7px 0;
+}
+
+p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.fundH2 {
+  width: 605px;
+  height: 350px;
+  background: var(--cor-primaria-verde);
+  margin-left: -30px;
+}
+
+.textH2 {
+  width: 455px;
+  height: px;
+  margin: 80px 0 0 65px;
+}
+
+h2 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.textContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fundCard {
+  min-width: 540px;
+  max-width: 540px;
+  margin-top: 56px;
+}
+
+.fundCard:nth-child(odd) {
+  margin-right: 109px;
+}
+
+.imgVector {
+  width: 50px;
+  height: 50px;
+}
+
+.fundH5 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--cor-secundaria-azul);
+  margin-top: 0.4em;
+  margin-bottom: 0.6em;
+}
+
+.fundContainer button {
+  margin: auto;
+  margin-top: 2em;
+  margin-bottom: 6em;
+}

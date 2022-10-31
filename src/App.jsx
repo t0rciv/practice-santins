@@ -1,6 +1,9 @@
 import react from 'react';
 import Header from './components/header/Header';
-import Empresa from './components/empresa/empresa';
+import About from './components/main/About';
+import Stats from './components/main/Stats';
+import Funds from './components/main/funds';
+import Footer from './components/footer/Footer';
 
 import './App.css';
 
@@ -8,7 +11,10 @@ function App() {
   return (
     <div className="app">
       <Header />
-      <Empresa />
+      <About />
+      <Stats />
+      <Funds />
+      <Footer />
     </div>
   );
 }

@@ -5,49 +5,49 @@ import './Header.css';
 
 const Header = () => {
   return (
-    <header className="header-container">
-      <div className="container-menu-externo">
-        <div className="div-menu">
-          <img className="logo-menu-img" src={Logo} alt="Logo santins" />
+    <header className="headerContainer">
+      <div className="externalMain">
+        <div className="main">
+          <img className="imgMain" src={Logo} alt="Logo santins" />
           <nav>
-            <div className="div-container-menu">
-              <ul className="li-menu">
+            <div className="containerMain">
+              <ul className="liMain">
                 <li>
-                  <a className="link-menu" href="" hrfer="#">
+                  <a className="linkMain" href="" hrfer="#">
                     A EMPRESA
                   </a>
                 </li>
                 <li>
-                  <a className="link-menu" href="" hrfer="#">
+                  <a className="linkMain" href="" hrfer="#">
                     Nossos fundos
                   </a>
                 </li>
                 <li>
-                  <a className="link-menu" href="" hrfer="#">
+                  <a className="linkMain" href="" hrfer="#">
                     Conteúdos
                   </a>
                 </li>
                 <li>
-                  <a className="link-menu" href="" hrfer="#">
+                  <a className="linkMain" href="" hrfer="#">
                     Contato
                   </a>
                 </li>
               </ul>
-              <div className="button-menu-container">
-                <button className="btn-faça-login">Faça Login</button>
-                <button className="btn-invista-agora">invista agora</button>
+              <div>
+                <button className="btnLogin">Faça Login</button>
+                <button className="btnNow">invista agora</button>
               </div>
             </div>
           </nav>
         </div>
-        <div className="conteudo-banner">
+        <div className="banner">
           <h1>
             Neque porro <br />
             quisquam est qui
             <br />
             dolorem ipsum...
           </h1>
-          <button className="btn-saber-mais-banner">Saber mais</button>
+          <button className="btnMoreBanner">Saber mais</button>
         </div>
       </div>
     </header>
