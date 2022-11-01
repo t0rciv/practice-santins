@@ -8,7 +8,7 @@
 }
 
 .externalMain {
-  max-width: 1260px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -114,6 +114,16 @@ img {
   transition: 0.5s;
 }
 
+.btnCheck {
+  font-size: 40px;
+  color: antiquewhite;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
 .banner {
   max-width: 1260px;
   margin: auto;
@@ -154,4 +164,65 @@ img {
   font-weight: 800;
   cursor: pointer;
   transition: 0.4s;
+}
+
+@media (max-width: 1260px) {
+  .headerContainer {
+    height: 100vh;
+    width: 100vh;
+  }
+
+  .externalMain {
+    margin: 0 15em;
+    max-width: 55vh;
+  }
+
+  .linkMain {
+    display: none;
+  }
+
+  .btnCheck {
+    display: block;
+  }
+}
+
+@media (max-width: 640px) {
+  .headerContainer {
+    background-size: auto;
+    background-position: center;
+    height: 50vh;
+    width: 57vh;
+    margin-bottom: 2em;
+  }
+
+  .externalMain {
+    margin: 0 5em;
+    max-width: 55vh;
+  }
+
+  .linkMain {
+    display: none;
+  }
+
+  .btnLogin {
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0.1em;
+    width: 120px;
+    height: 38px;
+  }
+
+  .btnNow {
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0.1em;
+    width: 135px;
+    height: 38px;
+    margin-left: 1em;
+  }
+
+  .banner {
+    margin: auto;
+    top: 20%;
+  }
 }

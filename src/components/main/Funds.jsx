@@ -44,7 +44,7 @@ const Funds = () => {
 
           <div className="fundCard">
             <img className="imgVector" src={Vector} alt="Icone dinheiro" />
-            <h5 className="fundH5">FUNDO 1</h5>
+            <h5 className="fundH5">FUNDO 2</h5>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               maximus tempor tellus non cursus. Donec nisl metus, sagittis at
@@ -54,9 +54,9 @@ const Funds = () => {
             </p>
           </div>
 
-          <div className="fundCard">
+          <div className="fundCard card3">
             <img className="imgVector" src={Vector} alt="Icone dinheiro" />
-            <h5 className="fundH5">FUNDO 1</h5>
+            <h5 className="fundH5">FUNDO 3</h5>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               maximus tempor tellus non cursus. Donec nisl metus, sagittis at
@@ -65,9 +65,9 @@ const Funds = () => {
               lobortis mauris mattis.
             </p>
           </div>
-          <div className="fundCard">
+          <div className="fundCard card4">
             <img className="imgVector" src={Vector} alt="Icone dinheiro" />
-            <h5 className="fundH5">FUNDO 1</h5>
+            <h5 className="fundH5">FUNDO 4</h5>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               maximus tempor tellus non cursus. Donec nisl metus, sagittis at
@@ -77,7 +77,7 @@ const Funds = () => {
             </p>
           </div>
         </div>
-        <button>Saber mais</button>
+        <button className="btnMore">Saber mais</button>
       </div>
     </section>
   );

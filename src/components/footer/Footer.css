@@ -102,8 +102,8 @@
 
 .icons img {
   margin: -10px;
-  width: 45px;
-  height: 45px;
+  width: 70px;
+  height: 70px;
   margin-right: 0.5em;
 }
 
@@ -162,4 +162,49 @@
   font-size: 11px;
   line-height: 150%;
   color: var(--cor-branca);
+}
+
+@media (max-width: 1260px) {
+  .footerSection {
+    position: relative;
+    height: 65vh;
+    width: 67vh;
+  }
+
+  .formCadastro {
+    position: relative;
+    width: 53vh;
+    height: 282px;
+    left: 50%;
+    top: -12%;
+    transform: translateX(-50%);
+    background: var(--cor-branca);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0px -50px 30px 0px rgba(13, 16, 37, 0.06);
+  }
+
+  .inputNews {
+    width: 32vh;
+  }
+
+  .footerContainer {
+    width: 53vh;
+    padding-top: 0;
+    padding-bottom: 2em;
+  }
+
+  .icons img {
+    margin-right: -0.5em;
+  }
+}
+
+@media (max-width: 640px) {
+  .footerSection {
+    position: relative;
+    height: 65vh;
+    width: 57vh;
+  }
 }

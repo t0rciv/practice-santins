@@ -70,3 +70,33 @@
   color: var(--cor-primaria-verde);
   margin-left: -5px;
 }
+
+@media (max-width: 640px) {
+  .fundSection {
+    height: 30vh;
+    width: 57vh;
+    margin-bottom: 0;
+  }
+
+  .numbers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5em;
+  }
+
+  .dataNumbers {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  .edgeNumbers {
+    width: 1em;
+    height: 4px;
+  }
+
+  .dataText {
+    font-size: 12;
+    line-height: 16px;
+  }
+}

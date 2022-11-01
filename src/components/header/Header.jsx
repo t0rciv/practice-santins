@@ -1,5 +1,7 @@
 import React from 'react';
 import Logo from '../../assets/logo.svg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 import './Header.css';
 
@@ -33,10 +35,14 @@ const Header = () => {
                   </a>
                 </li>
               </ul>
-              <div>
+              <div className="buttonsHeader">
                 <button className="btnLogin">Faça Login</button>
                 <button className="btnNow">invista agora</button>
               </div>
+              <input type="checkbox" id="check" />
+              <label for="check" class="btnCheck">
+                <FontAwesomeIcon icon={faBars} />
+              </label>
             </div>
           </nav>
         </div>
