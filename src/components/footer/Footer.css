@@ -164,19 +164,19 @@
   color: var(--cor-branca);
 }
 
-@media (max-width: 1260px) {
+@media screen and (max-width: 414px), screen and (max-height: 896px) {
   .footerSection {
     position: relative;
-    height: 65vh;
-    width: 67vh;
+    height: 56vh;
+    width: 124vh;
   }
 
   .formCadastro {
     position: relative;
-    width: 53vh;
-    height: 282px;
+    width: 120vh;
+    height: 227px;
     left: 50%;
-    top: -12%;
+    top: -22%;
     transform: translateX(-50%);
     background: var(--cor-branca);
     display: flex;
@@ -187,24 +187,31 @@
   }
 
   .inputNews {
-    width: 32vh;
+    width: 62vh;
   }
 
   .footerContainer {
-    width: 53vh;
+    width: 114vh;
     padding-top: 0;
     padding-bottom: 2em;
+    min-height: 0;
   }
 
   .icons img {
     margin-right: -0.5em;
   }
-}
 
-@media (max-width: 640px) {
-  .footerSection {
-    position: relative;
-    height: 65vh;
-    width: 57vh;
+  .menu {
+    margin: 0 0 0 1em;
+  }
+
+  .menuContato {
+    margin-bottom: 0;
+  }
+
+  .footerLogo {
+    justify-content: space-between;
+    gap: 2em;
+    margin-right: 6em;
   }
 }

@@ -48,10 +48,9 @@ const Header = () => {
         </div>
         <div className="banner">
           <h1>
-            Neque porro <br />
-            quisquam est qui
-            <br />
-            dolorem ipsum...
+            Neque porro
+            <br /> quisquam est qui
+            <br /> dolorem ipsum...
           </h1>
           <button className="btnMoreBanner">Saber mais</button>
         </div>

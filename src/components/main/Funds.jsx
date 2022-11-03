@@ -54,7 +54,7 @@ const Funds = () => {
             </p>
           </div>
 
-          <div className="fundCard card3">
+          <div className="fundCard">
             <img className="imgVector" src={Vector} alt="Icone dinheiro" />
             <h5 className="fundH5">FUNDO 3</h5>
             <p>
@@ -65,7 +65,7 @@ const Funds = () => {
               lobortis mauris mattis.
             </p>
           </div>
-          <div className="fundCard card4">
+          <div className="fundCard">
             <img className="imgVector" src={Vector} alt="Icone dinheiro" />
             <h5 className="fundH5">FUNDO 4</h5>
             <p>

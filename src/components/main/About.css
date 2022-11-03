@@ -77,22 +77,23 @@ p {
   transition: 0.5s;
 }
 
-@media (max-width: 640px) {
+@media screen and (max-width: 414px), screen and (max-height: 896px) {
   .aboutSection {
-    margin-top: 3em;
-    margin-bottom: 4em;
-    margin-left: 1em;
-  }
-  .aboutBg {
-    display: none;
+    padding-top: 0;
   }
 
-  .aboutText {
-    margin-bottom: 3em;
-    width: 650px;
+  .aboutBg {
+    width: 505px;
+    height: 430px;
+    margin-top: -2em;
   }
 
   .aboutContent {
-    margin: 0 auto;
+    padding-left: 4em;
+    margin: 0;
+  }
+
+  .aboutText {
+    margin-bottom: 2em;
   }
 }

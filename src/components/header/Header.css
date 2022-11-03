@@ -22,7 +22,7 @@
   padding-top: 2em;
 }
 
-img {
+.main img {
   width: 200px;
   height: 50px;
 }
@@ -126,7 +126,7 @@ img {
 
 .banner {
   max-width: 1260px;
-  margin: auto;
+  margin-left: 11em;
   position: absolute;
   top: 40%;
 }
@@ -166,38 +166,27 @@ img {
   transition: 0.4s;
 }
 
-@media (max-width: 1260px) {
-  .headerContainer {
-    height: 100vh;
-    width: 100vh;
-  }
-
-  .externalMain {
-    margin: 0 15em;
-    max-width: 55vh;
-  }
-
-  .linkMain {
-    display: none;
-  }
-
-  .btnCheck {
-    display: block;
-  }
-}
-
-@media (max-width: 640px) {
+@media screen and (max-width: 414px), screen and (max-height: 896px) {
   .headerContainer {
     background-size: auto;
     background-position: center;
-    height: 50vh;
-    width: 57vh;
+    height: 63vh;
+    width: 124vh;
     margin-bottom: 2em;
+  }
+
+  .main img {
+    width: 280px;
+    height: 60px;
   }
 
   .externalMain {
     margin: 0 5em;
-    max-width: 55vh;
+    max-width: 120vh;
+  }
+
+  .containerMain {
+    gap: 3em;
   }
 
   .linkMain {
@@ -205,24 +194,42 @@ img {
   }
 
   .btnLogin {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 100%;
     letter-spacing: 0.1em;
-    width: 120px;
-    height: 38px;
+    width: 130px;
+    height: 40px;
   }
 
   .btnNow {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 100%;
     letter-spacing: 0.1em;
-    width: 135px;
-    height: 38px;
-    margin-left: 1em;
+    width: 155px;
+    height: 40px;
+    margin-left: 1.5em;
+  }
+
+  .btnCheck {
+    display: block;
   }
 
   .banner {
     margin: auto;
     top: 20%;
+  }
+
+  .banner h1 {
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--cor-branca);
+    margin: 0 0 0.8em 0.5em;
+    width: 54vh;
+  }
+
+  .btnMoreBanner {
+    margin-left: 1.5em;
   }
 }

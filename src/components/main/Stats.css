@@ -71,22 +71,22 @@
   margin-left: -5px;
 }
 
-@media (max-width: 640px) {
+@media screen and (max-width: 414px), screen and (max-height: 896px) {
   .fundSection {
-    height: 30vh;
-    width: 57vh;
+    height: 62vh;
+    width: 124vh;
     margin-bottom: 0;
   }
 
   .numbers {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 2.5em;
   }
 
   .dataNumbers {
-    font-size: 35px;
+    font-size: 45px;
     line-height: 45px;
   }
 
@@ -96,7 +96,7 @@
   }
 
   .dataText {
-    font-size: 12;
+    font-size: 13;
     line-height: 16px;
   }
 }
