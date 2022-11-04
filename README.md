@@ -12,7 +12,7 @@ Navegue pelo terminal até a pasta onde o projeto foi clonado e digite o comando
 
 > npm install
 
-Para executar o projeto e visualizar a página execute a linha abaixo
+Para executar o projeto execute a linha abaixo
 
 > npm run dev
 
